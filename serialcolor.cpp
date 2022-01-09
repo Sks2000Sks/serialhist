@@ -8,7 +8,7 @@ int main(int argc, char** argv)
 {
     // Read the image file
     Mat image = imread(argv[1]);
- lock_t starttime = clock();
+ clock_t starttime = clock();
     // Check for failure
     if (image.empty())
     {
