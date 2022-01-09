@@ -8,7 +8,7 @@ using namespace std;
 int main( int argc, char** argv )
 {
     //CommandLineParser parser( argc, argv, "{@input | lena.jpg | input image}" );
-     lock_t starttime = clock();
+     clock_t starttime = clock();
    
     
     Mat src = imread(argv[1], IMREAD_COLOR );
